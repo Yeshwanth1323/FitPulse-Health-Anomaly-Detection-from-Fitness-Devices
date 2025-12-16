@@ -1,12 +1,12 @@
 # FitPulse: Health Anomaly Detection from Fitness Devices
 
-## 📌 Project Overview
+##  Project Overview
 **FitPulse** is a health analytics project focused on detecting physiological anomalies using wearable fitness device data.  
 This repository contains **Milestone 1**, which establishes a **robust data preprocessing pipeline** for raw Fitbit logs, preparing them for downstream analytics and anomaly detection models.
 
 ---
 
-## 🎯 Milestone 1 Objective
+##  Milestone 1 Objective
 The primary goal of this milestone is to:
 - Ingest raw Fitbit CSV data
 - Normalize timestamps to a unified UTC format
@@ -17,7 +17,7 @@ This preprocessing step ensures data consistency and reliability for future mach
 
 ---
 
-## 📂 Dataset Source
+##  Dataset Source
 **Source:** Public Fitbit Fitness Tracker Dataset  
 
 ### Files Used
@@ -29,25 +29,25 @@ This preprocessing step ensures data consistency and reliability for future mach
 
 ---
 
-## 🔄 Data Processing Pipeline
+##  Data Processing Pipeline
 
-### 1️⃣ Data Ingestion
+### 1. Data Ingestion
 - Loaded raw CSV files using **Pandas**
 - Validated schema consistency and column integrity
 
-### 2️⃣ Time Normalization
+### 2. Time Normalization
 - Converted timestamp columns to `datetime`
 - Standardized all timestamps to **UTC**
 - Ensured uniform time formatting across datasets
 
-### 3️⃣ Resampling & Alignment
+### 3. Resampling & Alignment
 - Aggregated heart rate data from **seconds → 1-minute mean**
 - Aggregated step counts using **1-minute sum**
 - Aligned sleep logs to the same 1-minute timeline
 
-### 4️⃣ Missing Value Handling
+### 4. Missing Value Handling
 - Identified gaps caused by device inactivity or logging issues
 - Applied forward-fill and safe imputation strategies where applicable
 
-### 6️⃣ Output Generation
+### 5. Output Generation
 - Exported the final cleaned dataset as:
