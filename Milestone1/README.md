@@ -52,5 +52,6 @@ This preprocessing step ensures data consistency and reliability for future mach
 - Applied forward-fill and safe imputation strategies where applicable
 
 ### 5. Output Generation
-- Exported the final cleaned dataset as
+- Exported the final cleaned d<img width="542" height="398" alt="output" src="https://github.com/user-attachments/assets/5b42df0b-cda0-4e98-98f2-91fac356e909" />
+ataset 
 
