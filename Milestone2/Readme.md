@@ -4,10 +4,11 @@
 **FitPulse** is a health analytics project focused on detecting physiological anomalies using wearable fitness device data.  
 This repository contains **Milestone 1**, which establishes a **robust data preprocessing pipeline** for raw Fitbit logs, preparing them for downstream analytics and anomaly detection models.
 
-https://colab.research.google.com/drive/10EF3-1CxkJCdDc94-KZCmj30pUqBsAi5?usp=sharing
+
 
 ## Milestone 2: Feature Engineering, Trend Modeling & Behavioral Analysis
 
+Demo Link:-https://colab.research.google.com/drive/10EF3-1CxkJCdDc94-KZCmj30pUqBsAi5?usp=sharing
 ---
 
 ##  Overview
